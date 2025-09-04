@@ -8,8 +8,8 @@
 /* Variáveis */
 :root {
     --marromchocolate: #5e2f00;
-    --marromchocolate: #8f4800d3;
-    --marromchocolate: #da822bd3;
+    --marromchocolatee: #8f4800d3;
+    --marromchocolati: #da822bd3;
 }
 
 /* Layout */
@@ -25,4 +25,55 @@ html {
 
 body {
     font-family: "Molengo", sans-serif;
+    background-color: #5e2f00;
+}
+
+/* Cabeçario */
+header {
+    text-align: center;
+}
+
+header img {
+    width: 109px;
+    height: 109px;
+    border-radius: 50%;
+    margin-top: 92px;
+    margin-bottom: 15px;
+}
+
+header h1 {
+    color: var( --marromchocolatei);
+    font-size: 1.30rem;
+    font-weight: 500;
+    margin: 10px 0px 10px 0px;
+}
+
+header h2 {
+    color: var(--marromchocolatei);
+    font-size: 1.25rem;
+    font-weight: 300;
+    max-width: 200px;
+    margin-bottom: 30px;
+}
+
+/*Principal*/
+main a {
+    background-color: var(--marromchocolati);
+    width: 329px;
+    height: 53px;
+    text-align: center;
+    margin-bottom: 15px;
+    text-decoration: none;
+    color: var(--marromchocolate);
+    padding-top: 15px;
+    border-radius: 40px;
+}
+
+/*Rodapé*/
+footer {
+    margin-top: 20px;
+}
+
+footer img {
+    margin: 0px 15px 0px 15px;
 }
